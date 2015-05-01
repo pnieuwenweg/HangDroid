@@ -27,7 +27,6 @@ public class MultiPlayerActivity extends ActionBarActivity {
 
         String wordToGuess = editText.getText().toString();
 
-
         Intent myIntent = new Intent(this, GameMultiActivity.class);
 
         myIntent.putExtra("WORD_IDENTIFIER",wordToGuess);
